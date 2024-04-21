@@ -5,7 +5,7 @@ export function Nav(){
     return(
         <>
           <nav className="nav-container">
-            <img src={img} alt="logo of little lemon" width={200} height={50} className="logo-container"/>
+          <img src={img} alt="logo of little lemon" width={200} height={50} className="logo-container"/>
             <ul className="link-container">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>

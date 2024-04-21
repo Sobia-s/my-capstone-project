@@ -4,9 +4,11 @@ import img from './images/restaurant.jpg';
 export function Footer(){
     return(
         <>
-         <div>
-            <div>
-                <img src={img} alt="restaurant pic" width={100} height={200} />
+         <div className="footer-container">
+
+            <div className="footer-1">
+                <img src={img} alt="restaurant pic" width={180} height={280} />
+                <div className="footer-links">
                 <h1>Doormat</h1>
                 <h1>Navigation</h1>
                 <p>Home</p>
@@ -15,15 +17,18 @@ export function Footer(){
                 <p>Reservation</p>
                 <p>Order Online</p>
                 <p>Login</p>
+                </div>
             </div>
-            <div>
-                <div>
+
+            <div className="footer-2">
+                <div className="footer-links">
                 <h1>Contact</h1>
                 <p>Adress</p>
                 <p>phone number</p>
                 <p>email</p>
                 </div>
-                <div>
+
+                <div className="footer-links">
                     <h1>Social Media Links</h1>
                     <p>Adress</p>
                     <p>phone number</p>
