@@ -2,7 +2,7 @@ import React from "react";
 import chef1 from './images/Chef 1.jpg';
 
 
-export function About(){
+function About(){
     return(
         <>
         <div className="about-container">
@@ -20,3 +20,5 @@ export function About(){
         </>
     )
 }
+
+export default About;

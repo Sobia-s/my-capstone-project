@@ -4,7 +4,7 @@ import dish2 from './images/Bruscheta.jpg';
 import dish3 from './images/lemon dessert.jpg';
 
 
-export function Specials(){
+function Specials(){
     return(
         <>
          <div className="specials-heading">
@@ -18,7 +18,7 @@ export function Specials(){
 
          <div className="dishes-container">
             <div className="dish">
-               <img src={dish1} alt="greek salad" width={300} height={200}/>
+               <img src={dish1} alt="greek salad" width={280} height={200}/>
                <div className="img-heading">
                 <h2>Greek Salad <span>$12.99</span></h2>
                </div>
@@ -28,7 +28,7 @@ export function Specials(){
 
             <div>
             <div className="dish">
-               <img src={dish2} alt="Bruschetta" width={300} height={200} />
+               <img src={dish2} alt="Bruschetta" width={280} height={200} />
                <div className="img-heading">
                 <h2>Bruschetta <span>$ 5.99</span></h2>
                </div>
@@ -39,7 +39,7 @@ export function Specials(){
 
             <div>
             <div className="dish">
-               <img src={dish3} alt="Lemon Dessert" width={300} height={200}/>
+               <img src={dish3} alt="Lemon Dessert" width={280} height={200}/>
                <div className="img-heading">
                 <h2>Lemon Dessert <span>$ 5.00</span></h2>
                </div>
@@ -51,3 +51,6 @@ export function Specials(){
         </>
     )
 }
+
+
+export default Specials;

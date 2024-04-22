@@ -4,7 +4,7 @@ import img2 from './images/male1.jpg';
 import img3 from './images/lady2.jpg';
 import img4 from './images/lady3.jpg';
 
-export function Testimonials(){
+function Testimonials(){
     return(
         <>
 
@@ -50,3 +50,5 @@ export function Testimonials(){
       </>
     )
 }
+
+export default Testimonials;

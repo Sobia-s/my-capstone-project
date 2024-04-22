@@ -1,7 +1,7 @@
 import React from "react";
 import img from './images/restaurant.jpg';
 
-export function Footer(){
+function Footer(){
     return(
         <>
          <div className="footer-container">
@@ -39,3 +39,5 @@ export function Footer(){
         </>
     )
 }
+
+export default Footer;

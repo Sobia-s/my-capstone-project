@@ -279,7 +279,7 @@ span{
   background-color: #495E57;
   min-height: 450px;
   margin-top: 50px;
-  padding: 20px; /* Added padding for spacing */
+  padding: 20px;
 }
 .footer-1{
   display: flex;

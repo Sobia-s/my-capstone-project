@@ -2,7 +2,7 @@ import React from "react";
 import hero from './images/restaurantfood.jpg';
 
 
-export function Hero(){
+function Hero(){
     return(
         <>
         <div className="hero-container">
@@ -19,3 +19,5 @@ export function Hero(){
         </>
     )
 }
+
+export default Hero;
