@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Nav from './components/Nav';
 import Specials  from './components/Menu';
-import { BookingForm } from './components/BookingForm';
+import BookingPage from './components/BookingPage';
 import About from './components/About';
 import Footer from './components/Footer';
+import ConfirmedBooking from './components/ConfirmedBooking';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/menu" element={<Specials />} />
-          <Route path='/reservation' element={<BookingForm />} />
+          <Route path='/reservations' element={<BookingPage />} />
+          <Route path='/confirmed' element={<ConfirmedBooking />} />
         </Routes>
         <Footer />
       </>
