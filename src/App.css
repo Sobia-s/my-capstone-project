@@ -2,16 +2,13 @@
   margin: 0;
   padding: 0;
 }
-
                      /* Nav-Container*/
-
 
 .nav-container{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem 2rem;
-
 }
 .logo-container{
    flex: 0 0 auto;
@@ -38,32 +35,25 @@
   color: #495E57;
   text-decoration: underline;
 }
-
-
 /* For screens narrower than 768px (tablets and smartphones) */
 @media (max-width: 768px) {
   .nav-container {
     flex-direction: column; /* Stack logo and links vertically */
     align-items: center; /* Center content vertically */
   }
-
   .logo-container {
     margin-bottom: 1rem; /* Add space between logo and links */
   }
-
   .link-container {
     flex-direction: column; /* Arrange links vertically */
     align-items: center; /* Center links horizontally */
   }
-
   .link-container li {
     margin: 0.5rem 0; /* Adjust spacing between links */
   }
 }
 
-
                      /* Hero Container */
-
 
 .hero-container{
      display: grid;
@@ -102,14 +92,11 @@
    background-color: #FFFFFF;
    color: #495E57;
 }
-
-
 @media screen and (max-width: 768px) {
   .hero-container {
     grid-template-columns: 1fr; /* Switch to single column layout */
     padding: 10px; /* Reduced padding for smaller screens */
   }
-
   .hero2 {
     display: none; /* Hide image on smaller screens */
   }
@@ -194,13 +181,10 @@ span{
   .dishes-container {
     padding: 0 10px; /* Added padding to sides for smaller screens */
   }
-
   .dish {
     margin: 20px auto; /* Center dishes horizontally on mobile */
   }
 }
-
-
 
 
                                 /* Testimonials section */
@@ -243,13 +227,11 @@ span{
 .review-card p, img, h3{
     padding: 3px;
 }
-
 @media (max-width: 768px) {
   .each-review {
     width: calc(50% - 40px);
   }
 }
-
 @media (max-width: 480px) {
   .each-review {
     width: calc(100% - 40px);
@@ -257,11 +239,7 @@ span{
  }
 
 
-
-
-
                                   /* About Section */
-
 
 
 .about-container {
@@ -276,7 +254,6 @@ span{
   max-width: 400px; /* Adjust max-width as needed */
   margin: 20px;
   padding: 10px;
-
 }
 .about-card2 {
   flex: 1;
@@ -375,13 +352,11 @@ span{
   padding: 20px;
   background-color: #495E57;
 }
-
 .form-container1,
 .form-container2 {
   flex: 1;
   padding: 20px;
 }
-
 label {
   display: block;
   margin: 20px 0 0;
@@ -389,7 +364,6 @@ label {
   font-size: medium;
   color: #FFFFFF;
 }
-
 .input-container {
   width: 30rem;
   height: 45px;
@@ -398,12 +372,10 @@ label {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 select,
 input[type="number"] {
   height: 45px;
 }
-
 input[type="submit"] {
   background-color: #F4CE14;
   color: #333333;
@@ -417,30 +389,25 @@ input[type="submit"] {
   margin: 0 auto;
   margin-top: 30px;
 }
-
 input[type="submit"]:disabled {
   background-color: #CCCCCC;
   color: #999999;
   cursor: not-allowed;
 }
-
 input[type="submit"]:not(:disabled):hover {
   background-color: #FFFFFF;
   color: #333333;
 }
-
 @media only screen and (max-width: 768px) {
   .res-container {
     flex-direction: column;
     width: 100%;
   }
-
   .form-container1,
   .form-container2 {
     flex: 1;
   }
 }
-
 .form-imgs {
   display: flex;
   justify-content: center;
@@ -448,21 +415,11 @@ input[type="submit"]:not(:disabled):hover {
   margin: 20px;
   gap: 50px;
 }
-
 .res-img {
   border-radius: 10px;
 }
 
-
-
-
-
-
-
-
                           /* Confirmed Booking */
-
-
 
 .confirmed-booking-container {
   max-width: 500px;

@@ -7,12 +7,9 @@ import img4 from './images/lady3.jpg';
 function Testimonials(){
     return(
         <>
-
         <div id="testimonials-container">
          <h1 id="testimonials-h1">Testimonials</h1>
-
-        <div className="reviews-container">
-
+         <div className="reviews-container">
             <div className="review-card">
                 <p className="stars">*****</p>
                 <img src={img1} alt="Sarak pic" width={70} height={70} className="cards-img"/>
@@ -20,7 +17,6 @@ function Testimonials(){
                 <p>Sarak62</p>
                 <p>“We had such a great time celebrating my grandmothers bitthday!”</p>
             </div>
-
             <div className="review-card">
                 <p className="stars">*****</p>
                 <img src={img2} alt="John pic" width={70} height={70} className="cards-img" />
@@ -28,7 +24,6 @@ function Testimonials(){
                 <p>John76</p>
                 <p>"Best Feta Salad in town flawless everytime!"</p>
             </div>
-
             <div className="review-card">
                 <p className="stars">*****</p>
                 <img src={img3} alt="Sara lopez pic" width={70} height={70} className="cards-img" /> 
@@ -36,7 +31,6 @@ function Testimonials(){
                 <p>Sara72</p>
                 <p>"Such a chilled out atmosphere - loved it!"</p>
             </div>
-
             <div className="review-card">
                 <p className="stars">*****</p>
                 <img src={img4} alt="Sana pic" width={70} height={70} className="cards-img"/>

@@ -16,10 +16,8 @@ function Specials(){
                <Link to="/reservations">
                <button id="special2">Order Online</button>
                </Link>
-               
             </div>
          </div>
-
          <div className="dishes-container">
             <div className="dish">
                <img src={dish1} alt="greek salad" width={280} height={200}/>
@@ -31,7 +29,6 @@ function Specials(){
                <h4>Order a delivery</h4>
                </Link>
             </div>
-
             <div>
             <div className="dish">
                <img src={dish2} alt="Bruschetta" width={280} height={200} />
@@ -44,7 +41,6 @@ function Specials(){
                </Link>
             </div>
             </div>
-
             <div>
             <div className="dish">
                <img src={dish3} alt="Lemon Dessert" width={280} height={200}/>
@@ -59,8 +55,7 @@ function Specials(){
             </div>
          </div>
         </>
-    )
-}
+    )}
 
 
 export default Specials;

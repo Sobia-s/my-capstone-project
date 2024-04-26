@@ -41,7 +41,6 @@ const BookingPage = () => {
     if (isSubmitted) {
       navigate('/confirmed-bookings');
     } else {
-      
     }
   };
 

@@ -6,7 +6,6 @@ function Footer(){
     return(
         <>
          <div className="footer-container">
-
             <div className="footer-1">
                 <img src={img} alt="restaurant pic" width={180} height={280} />
                 <div className="footer-links">
@@ -19,7 +18,6 @@ function Footer(){
                 <p className="footer-p"><Link to="/reservations">OrderOnline</Link></p>
                 </div>
             </div>
-
             <div className="footer-2">
                 <div className="footer-links">
                 <h1>Contact</h1>
@@ -27,7 +25,6 @@ function Footer(){
                 <p>phone number</p>
                 <p>email</p>
                 </div>
-
                 <div className="footer-links">
                     <h1>Social Media Links</h1>
                     <p>Adress</p>
@@ -37,7 +34,6 @@ function Footer(){
             </div>
          </div>
         </>
-    )
-}
+    )}
 
 export default Footer;

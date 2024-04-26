@@ -1,17 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-const generateAvailableTimes = (selectedDate) => {
-  // Mocked function to generate available times
-  return [
-    '17:00',
-    '18:00',
-    '19:00',
-    '20:00',
-    '21:00',
-    '22:00',
-  ];
-};
-
 function BookingForm({ availableTimes, updateTimes, onSubmit }) {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
