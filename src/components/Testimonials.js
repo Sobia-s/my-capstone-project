@@ -44,11 +44,9 @@ function Testimonials(){
                 <p>Sana82</p>
                 <p>“Seriously cannot stop thinking about the Turkish Mac n Cheese!!”</p>
             </div>
-
         </div>
      </div>
       </>
-    )
-}
+    )}
 
 export default Testimonials;

@@ -7,14 +7,15 @@ function Nav(){
     return(
         <>
           <nav className="nav-container">
-          <img src={img} alt="logo of little lemon" width={200} height={50} className="logo-container"/>
+          <Link to="/">
+                <img src={img} alt="logo of little lemon" width={200} height={50} className="logo-container" />
+            </Link>
             <ul className="link-container">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/menu">Menu</Link></li>
                 <li><Link to="/reservations">Reservations</Link></li>
                 <li><Link to="/reservations">OrderOnline</Link></li>
-                {/* <li><Link to="/login">Login</Link></li> */}
             </ul>
          </nav>
         </>
