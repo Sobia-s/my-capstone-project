@@ -1,5 +1,3 @@
-
-
 export const submitAPI = (formData) => {
     return new Promise((resolve, reject) => {
       // Simulate submission delay (1 second)

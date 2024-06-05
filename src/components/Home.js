@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "./Hero"; // Import Hero as default export
-import Recipes from './Menu'; // Import Recipes as default export
-import Testimonials from './Testimonials'; // Import Testimonials as default export
-import About from './About'; // Import About as default export
+import Hero from "./Banner/Hero";
+import Recipes from './Menu/Menu';
+import Testimonials from './Testimonials/Testimonials';
+import About from './About/About';
 
 function Home(){
     return(

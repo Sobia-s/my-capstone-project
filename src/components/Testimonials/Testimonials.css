@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#testimonials-container {
+    padding: 20px;
+    background-color: #FDF4EE;
+    text-align: center;
+}
+
+#testimonials-h1 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  height: 290px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.stars {
+    color: #ffcc00;
+    font-size: 1.2em;
+}
+
+.cards-img {
+    border-radius: 45%;
+    margin-bottom: 15px;
+}
+
+.review-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.review-card p {
+    color: #777;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    #testimonials-h1 {
+        font-size: 2em;
+    }
+    .review-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #testimonials-h1 {
+        font-size: 1.5em;
+    }
+    .reviews-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .review-card {
+        width: 100%;
+    }
+}
+
