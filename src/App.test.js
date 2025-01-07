@@ -25,10 +25,7 @@ describe("initializeTimes function", () => {
   };
 
   test("returns the expected array of available times", () => {
-    // Call the initializeTimes function
     const availableTimes = initializeTimes();
-
-    // Assert that the returned value matches the expected array of times
     expect(availableTimes).toEqual([
       "17:00",
       "18:00",
@@ -41,13 +38,10 @@ describe("initializeTimes function", () => {
 });
 
 
-// Unit test for updateTimes function
 describe("updateTimes function", () => {
-  // Mock reducer function for updateTimes
   const reducer = (state, action) => {
     switch (action.type) {
       case "UPDATE_TIMES":
-        // Just return the payload for simplicity
         return action.payload;
       default:
         return state;

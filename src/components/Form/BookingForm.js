@@ -7,7 +7,7 @@ function BookingForm({ availableTimes, updateTimes, onSubmit }) {
   const [occasion, setOccasion] = useState("Birthday");
   const [formValid, setFormValid] = useState(false);
 
-  // Memoize handleFormValidation to prevent unnecessary re-renders
+
   const handleFormValidation = useCallback(() => {
     setFormValid(date && time && guests && occasion);
   }, [date, time, guests, occasion]);
@@ -67,7 +67,3 @@ function BookingForm({ availableTimes, updateTimes, onSubmit }) {
 }
 
 export default BookingForm;
-
-
-
-

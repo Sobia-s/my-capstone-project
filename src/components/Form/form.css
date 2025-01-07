@@ -12,8 +12,10 @@ body {
   min-height: 70vh;
   background-size: cover;
   background-position: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  background-color: #FDF4EE;
+  padding: 20px;
 }
 
 form {
@@ -25,7 +27,7 @@ form {
   padding: 20px;
   background-color: #495E57;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1#form-id {
@@ -80,7 +82,7 @@ input[type="submit"][disabled] {
 
   .input-container[type="date"],
   .input-container[type="number"] {
-    width: calc(100% - 20px); /* Adjust according to padding */
+    width: calc(100% - 20px);
   }
 }
 
@@ -97,55 +99,55 @@ input[type="submit"][disabled] {
     padding: 10px 15px;
   }
 }
-                             /* Booking Confirmed */
+                                                  /* Booking Confirmed */
 
-.confirmed-booking-container{
-      text-align: center;
-      padding: 20px;
-      margin: 20px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #495E57;
+ .confirmed-booking-container{
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #495E57;
 }
 
 .confirmed-booking-container h2{
-  margin-bottom: 0;
-  color: #666;
-  font-size: 16px;
+margin-bottom: 0.3em;
+color: #666;
+font-size: 1.5rem;
 }
 
 .confirmed-booking-container p {
-  margin-bottom: 0;
-  color: #666;
-  font-size: 16px;
+margin-bottom: 0;
+color: #666;
+font-size: 1.5rem;
 }
 
 @media (max-width: 768px) {
-  .confirmed-booking-container {
-    padding: 15px;
-    margin: 15px;
-  }
+.confirmed-booking-container {
+padding: 15px;
+margin: 15px;
+}
 
-  .confirmed-booking-container h2 {
-    font-size: 22px;
-  }
+.confirmed-booking-container h2 {
+font-size: 22px;
+}
 
-  .confirmed-booking-container p {
-    font-size: 15px;
-  }
+.confirmed-booking-container p {
+font-size: 15px;
+}
 }
 
 @media (max-width: 480px) {
-  .confirmed-booking-container {
-    padding: 10px;
-    margin: 10px;
-  }
+.confirmed-booking-container {
+padding: 10px;
+margin: 10px;
+}
 
-  .confirmed-booking-container h2 {
-    font-size: 20px;
-  }
+.confirmed-booking-container h2 {
+font-size: 20px;
+}
 
-  .confirmed-booking-container p {
-    font-size: 14px;
-  }
+.confirmed-booking-container p {
+font-size: 14px;
+}
 }

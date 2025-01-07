@@ -18,14 +18,14 @@ function Footer(){
                 <img src={img} alt="little lemon logo" width={80} height={130} />
                 </div>
                 <div className="section2">
-                    <h1>Navigation</h1>
+                    <h1 className="footer-h1">Navigation</h1>
                     <p className="footer-p"><Link onClick={scrollToTop} to="/">Home</Link></p>
                     <p className="footer-p"><Link onClick={scrollToTop} to="/about">About</Link></p>
                     <p className="footer-p"><Link onClick={scrollToTop} to="/menu">Menu</Link></p>
                     <p className="footer-p"><Link onClick={scrollToTop} to="/reservations">Reservations</Link></p>
                 </div>
                 <div className="section3">
-                    <h1>Contact</h1>
+                    <h1 className="footer-h1">Contact</h1>
                     <p>Address</p>
                     <p>phone number</p>
                     <p>Email</p>

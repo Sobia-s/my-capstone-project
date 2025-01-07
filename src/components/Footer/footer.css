@@ -17,6 +17,11 @@
     line-height: 30px;
 }
 
+.footer-h1{
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+
 .footer-p a {
     color: #ffffff;
     text-decoration: none;
